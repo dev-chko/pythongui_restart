@@ -1,0 +1,62 @@
+{
+    "title": "Configration",
+    "servers": [
+        {
+            "hostname": "a-bastion",
+            "username" : "username",
+            "ip": "127.0.0.1"
+        }
+    ],
+    "channels": [
+        {
+            "name": "CH-01",
+            "script": "ch01_restart.sh"
+        },
+        {
+            "name": "CH-02",
+            "script": "ch02_restart.sh"
+        },      {
+            "name": "CH-03",
+            "script": "ch03_restart.sh"
+        },      {
+            "name": "CH-04",
+            "script": "ch04_restart.sh"
+        },      {
+            "name": "CH-05",
+            "script": "ch05_restart.sh"
+        },      {
+            "name": "CH-06",
+            "script": "ch06_restart.sh"
+        },      {
+            "name": "CH-07",
+            "script": "ch07_restart.sh"
+        },      {
+            "name": "CH-11",
+            "script": "ch11_restart.sh"
+        },      {
+            "name": "CH-12",
+            "script": "ch12_restart.sh"
+        },      {
+            "name": "CH-13",
+            "script": "ch13_restart.sh"
+        },      {
+            "name": "CH-14",
+            "script": "ch14_restart.sh"
+        },      {
+            "name": "CH-15",
+            "script": "ch15_restart.sh"
+        },      {
+            "name": "CH-16",
+            "script": "ch16_restart.sh"
+        }
+    ],
+    "lottery" : [
+        {
+            "name": "lottery1",
+            "script":"lottery_restart.sh"
+        },      {
+            "name": "lottery2",
+            "script":"lottery2_restart.sh"
+        }
+    ]
+}
